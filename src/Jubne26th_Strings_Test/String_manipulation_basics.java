@@ -9,5 +9,6 @@ public class String_manipulation_basics {
         System.out.println(str.toLowerCase());
         System.out.println(str.charAt(0));
         System.out.println(str.charAt(str.length()-1));
+
     }
 }
