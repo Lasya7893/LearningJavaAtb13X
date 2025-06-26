@@ -11,7 +11,7 @@ public class String_functions {
 //        System.out.println(name.charAt(10)); // java.lang.StringIndexOutOfBoundsException
 
         System.out.println(name.concat(" Patel"));
-
+"Hello".length();
         // 3. contains()
         System.out.println(name.contains("om"));
 
