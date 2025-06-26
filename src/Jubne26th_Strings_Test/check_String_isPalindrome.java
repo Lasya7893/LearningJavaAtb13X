@@ -10,7 +10,7 @@ public class check_String_isPalindrome {
         System.out.println(NoPunct);
        // String reverse = new StringBuilder(NoPunct).reverse().toString();// using inbuilt reverse
        String reversed ="";
-        for (int i = NoPunct.length()-1; i >=0 ; i--) {
+        for (int i = NoPunct.length()-1; i >=0 ; i--)  {
              reversed = reversed + NoPunct.charAt(i);
         }
         System.out.println(reversed);
